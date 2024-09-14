@@ -1,0 +1,489 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "6a23fa0b-c03a-4d82-ab61-83f45b3b66f3",
+   "metadata": {},
+   "source": [
+    "# _HTML Notes_\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4db5f92e-0ef1-45a1-81c8-758457cc22eb",
+   "metadata": {},
+   "source": [
+    "## Weekend of 9/14/24 CSP Assignment \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a978a422-2ef8-42a3-b6a7-b4b23a207bf2",
+   "metadata": {},
+   "source": [
+    "### Dylan Rigby\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d4fe39dd-ec2c-4923-b5b6-8a9db21d583e",
+   "metadata": {},
+   "source": [
+    "# __HTML Structure__\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1c3fb866-e19a-444d-a88a-e30acade1740",
+   "metadata": {},
+   "source": [
+    "HTML is the standard language for creating web pages, using a series of elements represented by tags: "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cb72f978-4a63-48e8-b3d4-1e9535be0668",
+   "metadata": {},
+   "source": [
+    "<!DOCTYPE html>`\n",
+    "<html>\n",
+    "  <head>\n",
+    "    <title>What I Did Over the Summer</title>\n",
+    "  </head>\n",
+    "  <body>\n",
+    "    <h1>Going to the Beach</h1>\n",
+    "    <p>At the beach, I did many things such as swimming, relaxing, and collecting seashells</p>\n",
+    "  </body>\n",
+    "</html>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5a8e8800-120a-4e6f-b444-9343967bb790",
+   "metadata": {},
+   "source": [
+    "## Key Elements \n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "37c423c5-2f85-41f8-b3f3-db9af7d98e9e",
+   "metadata": {},
+   "source": [
+    "`<<!DOCTYPE html>` Declares doc as HTML5"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9f0c2c85-b6d4-41d5-bb17-3e49aae399a4",
+   "metadata": {},
+   "source": [
+    "`<html>` The root element "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "435a9dc8-0605-48ce-9281-0803cf9b8090",
+   "metadata": {},
+   "source": [
+    "`<head>` Title/link"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b8bde8d7-321b-4855-ab04-18e9dedc6085",
+   "metadata": {},
+   "source": [
+    "`<body>` Content"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29c681f8-6039-4246-8cd5-fac7b33a03b3",
+   "metadata": {},
+   "source": [
+    "# __Common HTML Tags__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9d5b741f-b9a3-46bf-8cf3-bef8a7174893",
+   "metadata": {},
+   "source": [
+    "## Headings\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8fa02898-041e-45fd-b281-98dd68b2ad20",
+   "metadata": {},
+   "source": [
+    "<h1>What I Did Over the Summer</h1>\n",
+    "<h2>My Time in Seattle</h2>\n",
+    "<h3>Going to a Mariners game</h3>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9e1b3a5-17d5-49b1-a6fb-42b35a833eb5",
+   "metadata": {},
+   "source": [
+    "## Paragraphs\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "796ab706-90c3-4349-81ca-580e8306c050",
+   "metadata": {},
+   "source": [
+    "Created using the `<p>` tag"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "976620ec-c0b4-4c69-a563-015750466412",
+   "metadata": {},
+   "source": [
+    "<p>I went to T-Mobile Stadium and saw the Mariners play the Rays. It was really fun</p>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "87d19db2-dc5c-4488-9c3f-b9b3b4a28cd5",
+   "metadata": {},
+   "source": [
+    "## Links\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7af22a9-37c0-42d2-bd26-5acde08689b1",
+   "metadata": {},
+   "source": [
+    "Created using the `<a href=...>` tag"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d24221dd-1e6c-4518-be37-599a639b4f7e",
+   "metadata": {},
+   "source": [
+    "<a href =\"https://www.tripadvisor.com/Attractions-g60878-Activities-oa0-Seattle_Washington.html\" target=\"_blank\">Things to do in Seattle</a>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6afb8b17-3031-4680-95f4-212e715c7b93",
+   "metadata": {},
+   "source": [
+    "## Images"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0eb19b47-08d9-423b-a60c-3bd819000a2f",
+   "metadata": {},
+   "source": [
+    "Created using the `<img>` tag with `src` and `alt` attributes"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54643e80-5936-4f74-b7a1-d4a1e576d061",
+   "metadata": {},
+   "source": [
+    "<img src=\"https://media.architecturaldigest.com/photos/5afc411fda68792ef45e524b/16:9/w_2560%2Cc_limit/GettyImages-133955724.jpg\" alt=\"A Beutiful Image\">"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5d9a76e7-6c67-43f5-a915-535833dc30ca",
+   "metadata": {},
+   "source": [
+    "## Lists\n",
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "15c9e956-9ab7-4363-8958-f4bf85835d1d",
+   "metadata": {},
+   "source": [
+    "Two types of lists: ordered `<ol>` and unordered `<ul>`. Unordered lists have bullets while ordered lists have numbers."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7ed08f0b-9cd0-4492-9946-03ac2dc1eec7",
+   "metadata": {},
+   "source": [
+    "### Unordered list"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "25a1ec62-8b81-4a57-89bd-524fa84f2b25",
+   "metadata": {},
+   "source": [
+    "<h3>My Camping Checklist</h3>\n",
+    "<ul>\n",
+    "  <li>Backpack</li>\n",
+    "  <li>Tent</li>\n",
+    "  <li>Flashlight</li>\n",
+    "  <li>Snack</li>\n",
+    "  <li>Insect Repellant</li>\n",
+    "  <li>Binoculars</li>\n",
+    " </ul>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c4612240-c35c-4586-85be-152148044e13",
+   "metadata": {},
+   "source": [
+    "### Ordered List"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "76494964-6626-4c49-8d1f-2c02f35cd89d",
+   "metadata": {},
+   "source": [
+    "<h3>My Favorite Places in Seattle</h3>\n",
+    " <ol>\n",
+    "     <li>The Space Needle</li>\n",
+    "     <li>Market Square</li>\n",
+    "     <li>Mount Reineer</li>\n",
+    "     <li>T-Mobile Park</li>\n",
+    "     <li>Art Museum</li>\n",
+    "     <li>Museum of Pop Culture</li>\n",
+    " </ol>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfdd8e8d-5f09-40ba-9e29-eea2db09d774",
+   "metadata": {},
+   "source": [
+    "# __Attributes__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "da6d2ca1-8d66-4a56-b5c2-b671f6a01b20",
+   "metadata": {},
+   "source": [
+    "Attributes provide additional information about the element. They are defined in the opening tag and come in name/value pairs. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c984300e-7d46-4cf9-a6d8-842a9e2ff14c",
+   "metadata": {},
+   "source": [
+    "`<a href =\"https://www.tripadvisor.com/Attractions-g60878-Activities-oa0-Seattle_Washington.html\" target=\"_blank\">Things to do in Seattle</a>`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "89e0115d-4f32-45f0-b335-286e0f96d079",
+   "metadata": {},
+   "source": [
+    "`href` the link destination\n",
+    "`target=_blank` Opens the link in a new tab"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b20373bd-8032-4c4a-b35a-012d73aa433e",
+   "metadata": {},
+   "source": [
+    "# __Divs and Spans__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d10481b9-6389-44b7-94e1-c5f164cc1c62",
+   "metadata": {},
+   "source": [
+    "`<div>` Defines a section of the HTML doc\n",
+    "`<span>` Used to group content"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7c488425-1379-4964-b660-d4a29c7f2089",
+   "metadata": {},
+   "source": [
+    "<div>\n",
+    "  <h1>My Summer vacation</h1>\n",
+    "  <p>My trip to Seattle</p>\n",
+    "</div>\n",
+    "<span>Top Things I Did in the Downtown Neighborhood</span>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e9d7424b-98eb-4a39-826f-21ad8ffa0b0f",
+   "metadata": {},
+   "source": [
+    "# __Forms__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "71db3cad-8502-4e56-92ef-0c70ddaa9004",
+   "metadata": {},
+   "source": [
+    "To collect user input using a form: `<input>` `<textarea>` `<select>` `<button>`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bf8c402e-03e6-419e-bf0b-cc2f9d0345a2",
+   "metadata": {},
+   "source": [
+    "<form action=\"/submit\" method=\"post\">\n",
+    "  <label for \"name\">Name:</label>\n",
+    "  <input type=\"text\" id=\"name\" name=\"name\">\n",
+    "  <input type=\"submit\" value=\"submit\">\n",
+    "</form>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfcbb992-0797-4a98-980a-8f0f34a8db95",
+   "metadata": {},
+   "source": [
+    "# __Semantic HTML__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "51002bf7-1164-4abd-9c31-e61ea9da1b87",
+   "metadata": {},
+   "source": [
+    "Improve the readability, accessibility, and quality of a webpage, especially for those with disabilities "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "81a93d9b-9944-4b50-bffc-a7ea6f048289",
+   "metadata": {},
+   "source": [
+    "`<header>` Header section"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "74cd8eb2-0f08-4ee2-a759-35c3b6da7dfd",
+   "metadata": {},
+   "source": [
+    "`<nav>` Navigation Bar"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "092ea519-6bbc-4797-b5e4-5902509692d6",
+   "metadata": {},
+   "source": [
+    "`<section>` Section "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "30c01741-d215-4ed2-a833-c24efe29bd57",
+   "metadata": {},
+   "source": [
+    "`<article>` Independent Content"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "46cc4dc2-9640-4f0e-bde2-9eabc8de2db9",
+   "metadata": {},
+   "source": [
+    "`<footer>` Footer for a section or document "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b83e8b99-b74c-42c6-903b-0530633aeaec",
+   "metadata": {},
+   "source": [
+    "<header>\n",
+    "  <h1>My Summer Vacation</h1>\n",
+    "</header>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a08dcc39-0f40-4d10-b6b2-a19b76c032b3",
+   "metadata": {},
+   "source": [
+    "<nav>\n",
+    "<a href=\"/home\">Home</a>\n",
+    "<a href=\"/about\">About</a>\n",
+    "</nav>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bdf517fa-68f4-487b-9d0c-c74733f36339",
+   "metadata": {},
+   "source": [
+    "<section>\n",
+    "  <article>\n",
+    "    <h2>My Time in Seattle</h2>\n",
+    "    <p>It was a crazy adventure. I went to Mount Reineer and got some serious air. #Extreme #Fun</p>\n",
+    "  </article>\n",
+    "</section>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ae459fc1-8002-4932-a2b1-6c9684a7f808",
+   "metadata": {},
+   "source": [
+    "<footer>\n",
+    "  <p>Thank you to my parents for making this trip possible!</p>\n",
+    "</footer>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a9ab7b57-0986-48f2-9a39-b255ce568884",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
